@@ -1,0 +1,307 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "iui recipe recommender",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "SaveIntent",
+          "slots": [
+            {
+              "name": "text",
+              "type": "catchAll"
+            }
+          ],
+          "samples": [
+            "{text}"
+          ]
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "TimeIntent",
+          "slots": [
+            {
+              "name": "time",
+              "type": "AMAZON.DURATION"
+            },
+            {
+              "name": "unspecificTime",
+              "type": "UnspecificTime"
+            }
+          ],
+          "samples": [
+            "I {unspecificTime}",
+            "I have {unspecificTime}",
+            "I\u0027ve {unspecificTime}",
+            "{unspecificTime}",
+            "I have {time}",
+            "I don\u0027t want to spend more than {time}",
+            "I want to spen {time}",
+            "{time}",
+            "I\u0027ve {time}"
+          ]
+        },
+        {
+          "name": "DietIntent",
+          "slots": [
+            {
+              "name": "diet",
+              "type": "diet"
+            }
+          ],
+          "samples": [
+            "I\u0027d like something {diet}",
+            "I\u0027m {diet}",
+            "I {diet}",
+            "{diet}",
+            "Yes {diet}",
+            "Yes I {diet}",
+            "No {diet}",
+            "No I {diet}",
+            "I want {diet}",
+            "I eat {diet}",
+            "Something {diet}"
+          ]
+        },
+        {
+          "name": "IngredientIntent",
+          "slots": [
+            {
+              "name": "ingredientOne",
+              "type": "AMAZON.Food"
+            },
+            {
+              "name": "ingredientTwo",
+              "type": "AMAZON.Food"
+            },
+            {
+              "name": "ingredientThree",
+              "type": "AMAZON.Food"
+            }
+          ],
+          "samples": [
+            "I want to cook with {ingredientOne}",
+            "I want to cook something with {ingredientOne}",
+            "I\u0027d like to use {ingredientOne}",
+            "I\u0027d like {ingredientOne}",
+            "I have {ingredientOne}",
+            "I want to use {ingredientOne}",
+            "I want to cook with {ingredientOne} and {ingredientTwo}",
+            "I want to cook something with {ingredientOne} and {ingredientTwo}",
+            "I\u0027d like to use {ingredientOne} and {ingredientTwo}",
+            "I\u0027d like {ingredientOne} and {ingredientTwo}",
+            "I have {ingredientOne} and {ingredientTwo}",
+            "I want to use {ingredientOne} {ingredientTwo} and {ingredientThree}",
+            "I want to cook with {ingredientOne} {ingredientTwo} and {ingredientThree}",
+            "I want to cook something with {ingredientOne} {ingredientTwo} and {ingredientThree}",
+            "I\u0027d like to use {ingredientOne} {ingredientTwo} and {ingredientThree}",
+            "I\u0027d like {ingredientOne} {ingredientTwo} and {ingredientThree}",
+            "I have {ingredientOne} {ingredientTwo} and {ingredientThree}",
+            "I want to use {ingredientOne} {ingredientTwo} and {ingredientThree}"
+          ]
+        },
+        {
+          "name": "AMAZON.YesIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NoIntent",
+          "samples": []
+        }
+      ],
+      "types": [
+        {
+          "values": [
+            {
+              "name": {
+                "value": "allonymous isoelectrically salubrity apositia phantomize Sangraal externomedian phylloidal"
+              }
+            },
+            {
+              "name": {
+                "value": "imbreviate Bertie arithmetical undramatically braccianite eightling imagerially leadoff"
+              }
+            },
+            {
+              "name": {
+                "value": "mistakenness preinspire tourbillion caraguata chloremia unsupportedness squatarole licitation"
+              }
+            },
+            {
+              "name": {
+                "value": "Cimbric sigillarid deconsecrate acceptableness balsamine anostosis disjunctively chafflike"
+              }
+            },
+            {
+              "name": {
+                "value": "earsplitting mesoblastema outglow predeclare theriomorphism prereligious unarousing"
+              }
+            },
+            {
+              "name": {
+                "value": "ravinement pentameter proboscidate unexigent ringbone unnormal Entomophila perfectibilism"
+              }
+            },
+            {
+              "name": {
+                "value": "defyingly amoralist toadship psoatic boyology unpartizan merlin nonskid"
+              }
+            },
+            {
+              "name": {
+                "value": "broadax lifeboat progenitive betel ashkoko cleronomy unpresaging pneumonectomy"
+              }
+            },
+            {
+              "name": {
+                "value": "overharshness filtrability visual predonate colisepsis unoccurring turbanlike flyboy"
+              }
+            },
+            {
+              "name": {
+                "value": "kilp Callicarpa unforsaken undergarment maxim cosenator archmugwump fitted"
+              }
+            },
+            {
+              "name": {
+                "value": "ungutted pontificially Oudenodon fossiled chess Unitarian bicone justice"
+              }
+            },
+            {
+              "name": {
+                "value": "compartmentalize prenotice achromat suitability molt stethograph Ricciaceae ultrafidianism"
+              }
+            },
+            {
+              "name": {
+                "value": "slotter archae contrastimulant sopper Serranus remarry pterygial atactic"
+              }
+            },
+            {
+              "name": {
+                "value": "superstrata shucking Umbrian hepatophlebotomy undreaded introspect doxographer tractility"
+              }
+            },
+            {
+              "name": {
+                "value": "obstructionist undethroned unlockable Lincolniana haggaday vindicatively tithebook"
+              }
+            },
+            {
+              "name": {
+                "value": "unsole relatively Atrebates Paramecium vestryish stockfish subpreceptor"
+              }
+            },
+            {
+              "name": {
+                "value": "babied vagueness elabrate graphophonic kalidium oligocholia floccus strang"
+              }
+            },
+            {
+              "name": {
+                "value": "undersight monotriglyphic uneffete trachycarpous albeit pardonableness Wade"
+              }
+            },
+            {
+              "name": {
+                "value": "minacious peroratory filibeg Kabirpanthi cyphella cattalo chaffy savanilla"
+              }
+            },
+            {
+              "name": {
+                "value": "Polyborinae Shakerlike checkerwork pentadecylic shopgirl herbary disanagrammatize shoad"
+              }
+            }
+          ],
+          "name": "catchAll"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "with meat",
+                "synonyms": [
+                  "eat meat",
+                  "everything",
+                  "meat eater"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "vegetarian",
+                "synonyms": [
+                  "do not eat meat",
+                  "don\u0027t eat meat",
+                  "no meat"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "vegan",
+                "synonyms": [
+                  "do not eat diaries",
+                  "diary-free",
+                  "don\u0027t eat diaries",
+                  "no diaries"
+                ]
+              }
+            }
+          ],
+          "name": "diet"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "don\u0027t care",
+                "synonyms": [
+                  "don\u0027t know"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "not much time",
+                "synonyms": [
+                  "as little as possible",
+                  "make it quick",
+                  "keep it short",
+                  "quick",
+                  "little time",
+                  "fast"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "much time",
+                "synonyms": [
+                  "a lot of time",
+                  "a lot"
+                ]
+              }
+            }
+          ],
+          "name": "UnspecificTime"
+        }
+      ]
+    }
+  },
+  "version": "9"
+}
