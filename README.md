@@ -1,2 +1,0 @@
-# WhatCanICook
-Cooking Aid
